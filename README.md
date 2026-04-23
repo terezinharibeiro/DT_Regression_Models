@@ -1,4 +1,4 @@
-# R codes and dataset for the paper "A novel approach to generate distributions"
+# R codes and dataset for the paper "A novel approach to generate distributions with applications to regression modeling"
 This repository contains R codes and dataset used in the application of the paper "A novel approach to generate distributions with applications to regression modeling" by Dutta, Vila and Ribeiro (2026).
 
 ### Application
