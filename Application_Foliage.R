@@ -2,7 +2,7 @@
 if (!require("pacman")) install.packages("pacman")
 pacman::p_load("ggplot2","qqboxplot","GLMsData", "gamlss", "gamlss.ggplots")
 
-#*********** Foliage data application of DTED regression model *********#
+#*********** Foliage data application of RDTED and RDTWD regression models *********#
 
 source("DTED_GAMLSS.R")
 source("DTWD_GAMLSS.R")
