@@ -45,6 +45,20 @@ ggplot(dataF, aes(x=Origin, y=Foliage)) +
 
 ggsave("BP_Origin_Foliage.jpeg", width = 800, height = 500, units = 'px' )
 
+# Histogram of Foliage
+
+df <- data.frame(x=Foliage)
+ ggplot(df,aes(x=x))+
+    geom_histogram(aes(y = ..density..),colour='white',fill='#696969')+
+    labs(x='Foliage',y='density')+
+    scale_color_manual(values=colors)+
+    theme_bw()+
+    theme(axis.title.y=element_text(colour='black',size=16),
+          axis.title.x=element_text(colour='black',size=16),
+          axis.text=element_text(colour='black',size=14),
+          panel.border=element_blank(),
+          axis.line=element_line(colour='black'))
+
 
 #---- RDTED Fitted model ----#
 
