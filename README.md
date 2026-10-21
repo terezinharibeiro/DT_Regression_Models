@@ -8,6 +8,6 @@ The following R scripts are provided to replicate the results presented in the a
 - DTED_GAMLSS.R:  R function that fits RDTED regression models using the gamlss package.
 - DTWD_GAMLSS.R:  R function that fits RDTWD regression models using the gamlss package.
 
-Simulations
+### Simulations
 
 The directory Simulations contains folders corresponding to the simulation scenarios presented in the Monte Carlo simulation results section of the paper.
