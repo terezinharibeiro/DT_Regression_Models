@@ -1,5 +1,5 @@
 # R codes for the paper "A novel approach to generate distributions with applications to regression modeling"
-This repository contains R codes used in the application of the paper "A novel approach to generate distributions with applications to regression modeling" by Dutta, Vila and Ribeiro (2026).
+This repository contains R codes used in the application and simulations of the paper "A novel approach to generate distributions with applications to regression modeling" by Dutta, Vila and Ribeiro (2026).
 
 The following R scripts are provided to replicate the results presented in the application section of the paper.
 
